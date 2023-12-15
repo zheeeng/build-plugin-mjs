@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "strictNullChecks": false,
+    "jsx": "react",
+    "target": "esnext",
+    "skipLibCheck": true,
+    "declaration": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "es7",
+      "scripthost",
+      "es2018.promise"
+    ],
+  },
+  "include": [
+    "src/**/*"
+  ]
+}

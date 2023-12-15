@@ -1,0 +1,19 @@
+{
+  "name": "build-plugin-mjs",
+  "version": "1.0.0",
+  "description": "Build-scripts plugin for adapt mjs module",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsc -w",
+    "build": "rm -rf dist && tsc"
+  },
+  "author": "zheeeng <hi@zheeeng.me",
+  "license": "MIT",
+  "devDependencies": {
+    "build-scripts": "^1.1.1",
+    "typescript": "^5.3.3"
+  }
+}
